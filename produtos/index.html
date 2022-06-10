@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Produtos</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PRODUTOS</h1>
+        </header>
+        <main>
+            <div id="cabecalho" style="display: flex; justify-content: space-between;">
+                <div>
+                    Filtrar por categoria:&nbsp;
+                    <select id="filtroCategoria" onchange="filtrar()"></select>
+                </div>
+                <div>
+                    <span id="numProdutos"></span> Produtos
+                </div>
+            </div>
+            <div class="wrapper"></div>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
